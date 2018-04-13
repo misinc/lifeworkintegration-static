@@ -1,0 +1,154 @@
+@media (max-width: 768px){
+	.headline {font-size: 6.9em;}    
+}
+@media all and (max-width: 767px){
+.mobile-toggle {width:100%;display: block; cursor: pointer; font-size: 40px; top: 15px; color: #444; z-index: 200;}	
+	.mobile-toggle em{ right:15px;position:absolute; }
+    .mobile-toggle img {padding-left: 4px;}
+    .mobile-toggle h1 {margin-left: 35px; font-size: 0.75em;}
+	.menu{ margin: 0px; }
+	.menu li{ float: none; margin: 0px 0px 11px 0px; }
+	#navigation{ position: fixed !important; background: #rgba(255,255,255,0.9) !important; top: 0px; padding-top: 73px; max-height: 50px;  }
+	#navigation .text-center{ text-align: left !important; }
+	#logo{ display: none; }
+	#mobile-logo {opacity: 0.8; width: 100px;left:15px;position:absolute;	}
+	/*.headline { margin-bottom: 11px; width: 88%; word-wrap: break-word;}*/
+    .headline-logo{ display: none; }
+	.content-divider{ /*display: none;*/ }
+	.pad-top{ padding-top: 70px;}    
+	
+	#clients{  display: none; }
+	
+	.stat{ margin-bottom: 22px;}
+	.slide-content{ padding-top: 150px !important; }
+    #home-slider .flex-control-nav { display:none; }
+	.title-upper{ display: none; }
+	.title-icon{ display: none; }
+	
+	/*.bg-cover{ background-attachment: scroll !important; }*/
+    
+	.page-title h1{ font-size: 48px; }
+	
+	
+	.process-phase{ text-align: center; }
+	.phase-icon{ margin: 0px 0px 22px 0px; display: inline-block; float: none !important; }
+	.phase-text{ float: none; min-width: 100%; }
+		
+	.project-slider{ margin-bottom: 22px; }
+	.filters li{ margin-right: 11px; }
+	
+/* 	#home-slider .slides li h1{ font-size: 68px; letter-spacing: 0px; right: 0px; } */
+	#home-slider .slides li p{ font-size: 1em; }
+	#home-slider .slides li .btn{ display: none; }
+	#home-slider .slides li{ background-size: cover !important; }
+	
+	.testimonials-slider h1{ font-size: 38px; }
+	
+	.pricing-table{ margin-bottom: 44px; }
+  .project {
+		/*float:none;*/
+		display:block;  
+  }
+}
+
+@media (max-width: 640px){
+	.headline {font-size: 4.9em;}
+    .bg-cover {
+        background-position: 50% 50%; 
+  		background-size: cover;
+		background-attachment: fixed;
+    	background-repeat: no-repeat;
+    }  
+}
+@media (max-width: 480px){
+	.headline {font-size: 3.0em;}
+}
+@media (max-width: 320px){
+	.headline {font-size: 2.5em;}
+}
+
+/***** TABLETS PORTRAIT & LANDSCAPE *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+	#home-slider .slides li{ background-size: cover !important; }
+	.bg-cover{ background-attachment: scroll !important; }
+	.post-single-footer{ background-attachment: scroll !important; }
+}
+
+
+/***** PORTRAIT TABLETS *****/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+	.project{ width: 50%; }
+	/*.headline { font-size: 130px; letter-spacing: 20px; }*/
+	.process-phase{ text-align: center; }
+	.phase-icon{ margin: 0px 0px 22px 0px; display: inline-block; float: none !important; }
+	.phase-text{ float: none; min-width: 100%; }
+
+	#blog-preview-holder .post-link .medium-6{ width: 100% !important; }
+
+}
+
+/** ADDITIONAL FEATURES **/
+
+@media all and (max-width: 1250px){  
+  .post-preview h2{ font-size: 24px; } 
+}
+
+/** NAVIGATION **/
+
+@media (max-width: 1260px){
+	.menu li {font-size:13px; margin-right:15px;}
+    ul {margin-left:0;}
+}
+@media all and (max-width: 1160px){
+	.menu li {font-size:12px; margin-right:15px;}
+    ul {margin-left:0;}    
+}
+@media (max-width: 1050px){
+	.menu li {font-size:11px; margin-right:15px;}
+    ul {margin-left:0;}    
+}
+@media (max-width: 960px){
+	.menu li {font-size:10px; margin-right:8px;}
+    ul {margin-left:0;}    
+}
+@media (max-width: 855px){
+	.menu li {font-size:9px; margin-right:8px;}
+    ul {margin-left:0;}    
+}
+
+/** ALIGN IMAGE FIX **/
+@media (max-width: 950px){
+	.content-divider img {
+		padding-top: 31px;
+	}    
+}
+@media (max-width: 715px){
+	.content-divider img {
+		padding-top: 33px;
+	}    
+}
+/** ALIGN BOXES FIX **/
+@media (max-width: 990px){
+	.service {
+		min-height: 450px;
+	}    
+}
+@media (max-width: 810px){
+	.service {
+		min-height: 570px;
+	}    
+}
+@media (max-width: 650px){
+	.service {
+		min-height: 300px;
+	}    
+}
