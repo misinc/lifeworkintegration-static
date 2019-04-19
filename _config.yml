@@ -10,7 +10,7 @@ collections:
     output: true
 defaults:
 - scope:
-    path: ''
+    path: 'assets/img'
     type: posts
   values:
     layout: post
