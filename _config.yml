@@ -2,15 +2,13 @@
 title: Life Work Integration
 timezone: America/Los_Angeles
 collections:
-  contactinfo:
-    title: ContactInfo
-    output: true
   posts:
     title: Posts
     output: true
-  sections:
-    title: Sections
-    output: true
+  slides:
+    title: Slides
+    output: false
+    Slide Image: "/uploads/new_sky.jpg"
   uploads:
     title: Uploads
     output: true
@@ -28,3 +26,5 @@ defaults:
   values:
     layout: page
 permalink: pretty
+Email: jamie@lifeworkintegration.com
+Phone: 424-442-9219
