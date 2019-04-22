@@ -1,0 +1,53 @@
+---
+title: index.html
+date: 2018-04-12 18:33:00 -07:00
+---
+
+<html>
+
+    <head>
+        <title>Life, Work Integration with Jamie Douraghy</title>
+		{% include Head.html %}
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    </head>
+
+    <body>
+        <div id="loader">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="main-container">
+ 		{% include Home-Slider.html %}
+        <!--end of home section-->
+ 		{% include About.html %}
+        <!--end of about -->
+ 		{% include Testimonials.html %}
+        <!--end of testimonials section-->
+ 		{% include Services.html %}
+        <!--end of services section-->
+  		{% include Pricing.html %}
+        <!--end of pricing section-->
+   		{% include Features.html %}
+        <!--end of features-->
+    	{% include Work.html %}
+        <!--end of work section-->
+     	{% include Stats.html %}
+        <!--end of stats-->
+        {% include Contact.html %}
+        <!--end of contact-->
+        </div>
+        <!--end main container-->
+        {% include Scripts.html %}
+		<script>
+		  if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+			  if (!user) {
+				window.netlifyIdentity.on("login", () => {
+				  document.location.href = "/admin/";
+				});
+			  }
+			});
+		  }
+		</script>
+    </body>
+
+</html>

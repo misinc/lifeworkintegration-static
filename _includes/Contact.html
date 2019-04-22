@@ -1,0 +1,136 @@
+<a id="contact-scroll"></a>
+<section class="text-divider bg-cover" id="contact">
+<script language="JavaScript">
+        <!--
+            
+            /*
+            Random Image Script- By JavaScript Kit (http://www.javascriptkit.com) 
+            Over 400+ free JavaScripts here!
+            Keep this notice intact please
+            */
+            
+            function random_imglink() {
+                var myimages = new Array()
+                //specify random images below. You can have as many as you wish
+                myimages[1] = "/assets/img/backgrounds/new_asian.jpg"
+                myimages[2] = "/assets/img/backgrounds/new_city_lights.jpg"
+                myimages[3] = "/assets/img/backgrounds/new_cliffs.jpg"
+                myimages[4] = "/assets/img/backgrounds/new_cliffside.jpg"
+                myimages[5] = "/assets/img/backgrounds/new_flag.jpg"
+                myimages[6] = "/assets/img/backgrounds/new_footprint.jpg"
+                myimages[7] = "/assets/img/backgrounds/new_swordfight_2.jpg"
+                myimages[8] = "/assets/img/backgrounds/new_lightpole.jpg"
+                myimages[9] = "/assets/img/backgrounds/new_pier.jpg"
+                myimages[10] = "/assets/img/backgrounds/new_rocks.jpg"
+                myimages[11] = "/assets/img/backgrounds/new_sand_dune.jpg"
+                myimages[12] = "/assets/img/backgrounds/new_sky.jpg"
+                myimages[13] = "/assets/img/backgrounds/new_snow.jpg"
+                myimages[14] = "/assets/img/backgrounds/new_sunset_1.jpg"
+                myimages[15] = "/assets/img/backgrounds/new_sunset_2.jpg"
+                myimages[16] = "/assets/img/backgrounds/new_sunset_3.jpg"
+                myimages[17] = "/assets/img/backgrounds/new_swordfight_1.jpg"
+                myimages[18] = "/assets/img/backgrounds/new_swordfight_2.jpg"
+                
+                var ry = Math.floor(Math.random() * myimages.length)
+                if (ry == 0) ry = 1
+                document.write('<img src="' + myimages[ry] + '" border="0" class="divider-bg" alt="Slider Background">')
+            }
+        random_imglink()
+        //-->
+</script>
+<div class="divider-overlay"></div>
+<div class="row divider-content">
+<div class="medium-12 columns text-center">
+<p>
+<a class="smooth-scroll	" href="/">
+<img alt="Life, Work Integration" src="/assets/img/LWI_Final-logo-lg.png" />
+</a>
+</p>
+</div>
+</div>
+<div class="row divider-content">
+<div class="medium-4 columns text-center contact-method">
+<a href="#">
+<div class="icon icon-geolocalizator text-white"></div>
+</a>
+<span class="text-white"><em>Los Angeles, CA</em></span>
+</div>
+<div class="medium-4 columns text-center contact-method">
+<a href="mailto:jamie@lifeworkintegration.com">
+<div class="icon icon-mail-open text-white"></div>
+</a>
+<a href="mailto:jamie@lifeworkintegration.com"><span class="text-white"><em>jamie@lifeworkintegration.com</em></span>
+</a>
+</div>
+<div class="medium-4 columns text-center contact-method">
+	<a href="tel:+1424-442-9219">
+	<div class="icon icon-smartphone text-white"></div>
+	<span class="text-white"><em>424-442-9219</em></span></a>
+</div>
+</div>
+<div class="row divider-content">
+<div class="medium-8 medium-centered columns">
+<form id="contact-form" name="catwebformform44954" method="post" onsubmit="return checkWholeForm44954(this)" enctype="multipart/form-data" action="/FormProcessv2.aspx?WebFormID=10090&amp;OID=13297621&amp;OTYPE=1&amp;EID=0&amp;CID=0">
+    <h1 class="text-white">Drop me a line</h1>
+    <input type="text" placeholder="Name" name="FullName" id="FullName" />
+    <input type="text" placeholder="Email" id="EmailAddress" name="EmailAddress" />
+    <input type="text" placeholder="Phone" name="CellPhone" id="CellPhone" />
+    <input type="text" placeholder="Message" id=" name=" name="CAT_Custom_869" />
+    <div class="row">
+    <div class="small-12 medium-4 right columns">
+    <input type="submit" id="form-btn" value="Send" class="btn white-btn" />
+    </div>
+    </div>
+    <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script>
+    <script type="text/javascript">
+                    //<![CDATA[
+                    var submitcount44954 = 0;
+                    
+                    function checkWholeForm44954(theForm) {
+                        var why = "";
+                        if (theForm.FullName) why += isEmpty(theForm.FullName.value, "Your Name");
+                        if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value);
+                        if (theForm.CellPhone) why += isEmpty(theForm.CellPhone.value, "Your Phone Number");
+                        if (why != "") {
+                            alert(why);
+                            return false;
+                        }
+                        if (submitcount44954 == 0) {
+                            submitcount44954++;
+                            theForm.submit();
+                            return false;
+                        } else {
+                            alert("Form submission is in progress.");
+                            return false;
+                        }
+                    }
+                    //]]>
+                </script>
+</form>
+</div>
+</div>
+<div class="row divider-content">
+<div class="medium-12 columns text-center">
+<div class="social-links offix">
+<a href="https://twitter.com/jdouraghy">
+<h3 class="text-white">Twitter</h3>
+</a>
+<a href="https://facebook.com/jdouraghy">
+</a>
+<h3 class="text-white"></h3>
+<a href="https://www.facebook.com/lifeworkintegration">
+<h3 class="text-white">Facebook</h3>
+</a>
+<h3 class="text-white"><a href="https://www.linkedin.com/in/jdouraghy"><span style="color: #ffffff;">LinkedIn</span></a></h3>
+<a href="https://www.linkedin.com/in/jdouraghy">
+</a>
+</div>
+</div>
+</div>
+<div class="row divider-content">
+<div class="medium-12 columns text-center">
+<p class="copy-text text-white alt-h">{% include Copyright.html %}</p>
+</div>
+</div>
+</section>
+<!--end of contact section-->
