@@ -1,6 +1,0 @@
----
-title: Email
-date: 2019-04-22 14:39:00 -07:00
----
-
-jamie@lifeworkintegration.com
