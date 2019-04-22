@@ -8,6 +8,7 @@ collections:
   slides:
     title: Slides
     output: false
+    Slide Image: "/uploads/new_sky.jpg"
   uploads:
     title: Uploads
     output: true
