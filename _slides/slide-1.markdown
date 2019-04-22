@@ -1,8 +1,6 @@
 ---
 title: Slide 1
 date: 2019-04-22 14:52:00 -07:00
-Image: "/uploads/new_sky.jpg"
-Headline: Lifeworkintegration
 ---
 
 *Working with Entrepreneurial Thinkers and their teams to Discover their Why, Improve their How and Develop What they do.*
