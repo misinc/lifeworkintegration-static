@@ -9,6 +9,7 @@ collections:
     title: Slides
     output: false
     Slide Image: "/uploads/new_sky.jpg"
+    Headline: Enter a headline here
   uploads:
     title: Uploads
     output: true
