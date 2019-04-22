@@ -22,10 +22,17 @@ defaults:
     layout: post
     permalink: "/posts/:title/"
 - scope:
-    path: ''
-    type: pages
+    path: assets/img
+    type: posts
   values:
-    layout: page
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: slides
+  values:
+    Slide Image: 
+    Headline: 
 permalink: pretty
 Email: jamie@lifeworkintegration.com
 Phone: 424-442-9219
