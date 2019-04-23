@@ -14,7 +14,7 @@
                 var myimages = new Array()
                 //specify random images below. You can have as many as you wish
 			{% for image in section.Images %}
-                myimages[{{forloop.index1}}] = "{{image}}"
+                myimages[{{forloop.index}}] = "{{image}}"
 			{% endfor %}
                 
                 var ry = Math.floor(Math.random() * myimages.length)
