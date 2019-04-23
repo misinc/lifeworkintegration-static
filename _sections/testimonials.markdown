@@ -2,7 +2,7 @@
 title: Section3
 date: 2019-04-23 09:45:00 -07:00
 permalink: section3
-position: 2
+position: 3
 Heading:
 - A Better Way through Life Work Integration
 - There is a reason you’re an entrepreneur and a leader.
