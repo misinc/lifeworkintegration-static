@@ -41,11 +41,6 @@ defaults:
     Slide Image: 
     Headline: Lifeworkintegration
     Slide txt: 
-- scope:
-    path: ''
-    type: section2
-  values:
-    Heading: 
 permalink: pretty
 Email: jamie@lifeworkintegration.com
 Phone: 424-442-9219
