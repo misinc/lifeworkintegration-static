@@ -1,6 +1,7 @@
 ---
 title: Slide 2
 date: 2019-04-22 16:19:00 -07:00
+position: 2
 Slide Image: "/uploads/new_sunset_2.jpg"
 Headline: Lifeworkintegration
 Slide txt: |-

@@ -1,6 +1,7 @@
 ---
 title: Slide 1
 date: 2019-04-22 14:52:00 -07:00
+position: 0
 Slide Image: "/uploads/new_sky.jpg"
 Headline: Lifeworkintegration
 Slide txt: |-

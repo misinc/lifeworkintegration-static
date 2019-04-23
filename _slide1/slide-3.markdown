@@ -1,6 +1,7 @@
 ---
 title: Slide 3
 date: 2019-04-22 16:21:00 -07:00
+position: 1
 Slide Image: "/uploads/new_sunset_3.jpg"
 Slide txt: |-
   Helping Entrepreneurial Thinkers, Discover their Why, Improve their How and Develop Who they are.
