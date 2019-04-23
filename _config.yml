@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+  sections:
+    title: Sections
+    output: true
   slides:
     title: Slides
     output: false
