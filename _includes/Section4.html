@@ -3,11 +3,11 @@
 <div class="row">
 	<div class="medium-12 columns text-center">
 		<div class="page-title">
-			<h6 class="alt-h" ice:editable="line">Get To Your Core</h6>
+			<h6 class="alt-h">Get To Your Core</h6>
 			<div class="medium-2 line">&nbsp;</div>
 			<div style="background-image: none; padding: 0px 8px; font-size: 30px; color: #b6a591; position: relative; bottom: 8px;" class="icon icon-compass">&nbsp;</div>
 			<div class="medium-2 line">&nbsp;</div>
-			<h1 ice:editable="line">&nbsp;</h1> </div>
+			<h1>&nbsp;</h1> </div>
 	</div>
 </div>
 <div class="row">
@@ -15,9 +15,9 @@
 	<div class="medium-4 columns offix">
 		<div class="service">
 			<div class="service-text">
-				<div class="service-icon"> <img src="/assets/img/life-work-integration-small-logo.png" alt="Life Work Integration Small Logo" ice:editable="image"> </div>
+				<div class="service-icon"> <img src="/assets/img/life-work-integration-small-logo.png" alt="Life Work Integration Small Logo"> </div>
 				<div class="line">&nbsp;</div>
-				<p ice:editable="line">{{section.content}}</p>
+				{{section.content | markdownify}}
 			</div>
 			<div class="line">&nbsp;</div>
 			<a class="smooth-scroll" href="#contact-scroll"></a>
