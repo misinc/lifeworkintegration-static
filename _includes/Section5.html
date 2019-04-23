@@ -1,0 +1,44 @@
+<a id="pricing-scroll">
+</a>
+{% for section in site.section5 | sort:"position" %}
+<section class="text-divider pad-large bg-cover" id="pricing">
+	<img src="{{section.['Background Image']}}" class="divider-bg" alt=""> 
+	<div class="divider-overlay">
+		&nbsp;
+	</div>
+	<div class="row divider-content">
+		<div class="medium-9 medium-centered text-center columns">
+			<h1 class="text-white">
+				{{section.title}}
+			</h1>
+			<div class="page-title">
+				<div style="background-color: #ffffff;" class="medium-2 line">
+					&nbsp;
+				</div>
+				<div style="background-image: none; padding: 0px 8px; font-size: 30px; color: #ffffff; position: relative; bottom: 8px;" class="icon icon_lock-open_alt">
+					&nbsp;
+				</div>
+				<div style="background-color: #ffffff;" class="medium-2 line">
+					&nbsp;
+				</div>
+			</div>
+			{{section.content | markdownify}}
+		</div>
+	</div>
+	<div class="row divider-content space-top-large">
+		<div class="medium-12 columns text-center">
+			<img src="/assets/img/mountain-goat-avatar.png" alt="Mountain Goat Avatar"> 
+			<h1 class="text-white">
+				{{section.['Second Heading']}}
+			</h1>
+			<a class="smooth-scroll" href="#contact-scroll">
+				<div class="btn white-btn space-top">
+					<h6 class="alt-h text-white">
+						{{section.CTA}}
+					</h6>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+{% endfor %}
