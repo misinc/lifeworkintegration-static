@@ -9,6 +9,7 @@ Titles:
 - Intent
 - Discovery
 - Purpose
+Main Image: "/uploads/new_snow.jpg"
 ---
 
 ## Connect With Your *WHY*
