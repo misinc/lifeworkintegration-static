@@ -36,7 +36,7 @@ defaults:
     permalink: "/posts/:title/"
 - scope:
     path: ''
-    type: slides
+    type: section1
   values:
     Slide Image: 
     Headline: Lifeworkintegration
