@@ -213,7 +213,7 @@ transform: scale(0.9,0.9);
 .projects-container{ overflow: hidden; }
 
 .project img { -webkit-filter: grayscale(30%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */ }
-.project{ float: left; cursor: url(/img/crosshair.png), auto; position: relative; z-index: 1; -webkit-backface-visibility: hidden; transition: all .3s ease; opacity: 1; overflow: hidden; }
+.project{ float: left; cursor: url(/assets/img/crosshair.png), auto; position: relative; z-index: 1; -webkit-backface-visibility: hidden; transition: all .3s ease; opacity: 1; overflow: hidden; }
 .project-title{ margin: 16px 0px 14px 0px; position: relative; z-index: 30; background: #fff; }
 .project-title p.lead{ font-size: 16px; }
 .hide-project{ opacity: 0.1; }
