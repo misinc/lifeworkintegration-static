@@ -1,6 +1,7 @@
 ---
 title: Section2
 date: 2019-04-23 07:53:00 -07:00
+permalink: section2
 Heading: Are you running your business and your life, or stuck in the entrepreneurial
   trap?
 ---
