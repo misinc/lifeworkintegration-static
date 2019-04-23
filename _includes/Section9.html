@@ -56,7 +56,7 @@
 </div>
 <div class="row divider-content">
 <div class="medium-8 medium-centered columns">
-<form id="contact-form" name="catwebformform44954" method="post" onsubmit="return checkWholeForm44954(this)" enctype="multipart/form-data" action="/FormProcessv2.aspx?WebFormID=10090&amp;OID=13297621&amp;OTYPE=1&amp;EID=0&amp;CID=0">
+<form id="contact-form" name="catwebformform44954" method="post" enctype="multipart/form-data" action="#">
     <h1 class="text-white">Drop me a line</h1>
     <input type="text" placeholder="Name" name="FullName" id="FullName" />
     <input type="text" placeholder="Email" id="EmailAddress" name="EmailAddress" />
@@ -67,31 +67,6 @@
     <input type="submit" id="form-btn" value="Send" class="btn white-btn" />
     </div>
     </div>
-    <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script>
-    <script type="text/javascript">
-                    //<![CDATA[
-                    var submitcount44954 = 0;
-                    
-                    function checkWholeForm44954(theForm) {
-                        var why = "";
-                        if (theForm.FullName) why += isEmpty(theForm.FullName.value, "Your Name");
-                        if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value);
-                        if (theForm.CellPhone) why += isEmpty(theForm.CellPhone.value, "Your Phone Number");
-                        if (why != "") {
-                            alert(why);
-                            return false;
-                        }
-                        if (submitcount44954 == 0) {
-                            submitcount44954++;
-                            theForm.submit();
-                            return false;
-                        } else {
-                            alert("Form submission is in progress.");
-                            return false;
-                        }
-                    }
-                    //]]>
-                </script>
 </form>
 </div>
 </div>
