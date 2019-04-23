@@ -1,4 +1,5 @@
 <a id="contact-scroll"></a>
+{% for section in site.section9 | sort:"position" %}
 <section class="text-divider bg-cover" id="contact">
 <script language="JavaScript">
         <!--
@@ -56,16 +57,16 @@
 <span class="text-white"><em>Los Angeles, CA</em></span>
 </div>
 <div class="medium-4 columns text-center contact-method">
-<a href="mailto:jamie@lifeworkintegration.com">
+<a href="mailto:{{site.Email}}">
 <div class="icon icon-mail-open text-white"></div>
 </a>
-<a href="mailto:jamie@lifeworkintegration.com"><span class="text-white"><em>jamie@lifeworkintegration.com</em></span>
+<a href="mailto:{{site.Email}}"><span class="text-white"><em>{{site.Email}}</em></span>
 </a>
 </div>
 <div class="medium-4 columns text-center contact-method">
-	<a href="tel:+1424-442-9219">
+	<a href="tel:+1{{site.Phone}}">
 	<div class="icon icon-smartphone text-white"></div>
-	<span class="text-white"><em>424-442-9219</em></span></a>
+	<span class="text-white"><em>{{site.Phone}}</em></span></a>
 </div>
 </div>
 <div class="row divider-content">
@@ -111,20 +112,22 @@
 </div>
 <div class="row divider-content">
 <div class="medium-12 columns text-center">
+
 <div class="social-links offix">
-<a href="https://twitter.com/jdouraghy">
+<a href="{{site.Twitter}}">
 <h3 class="text-white">Twitter</h3>
 </a>
-<a href="https://facebook.com/jdouraghy">
-</a>
-<h3 class="text-white"></h3>
-<a href="https://www.facebook.com/lifeworkintegration">
+<a href="{{site.Facebook}}">
 <h3 class="text-white">Facebook</h3>
 </a>
-<h3 class="text-white"><a href="https://www.linkedin.com/in/jdouraghy"><span style="color: #ffffff;">LinkedIn</span></a></h3>
-<a href="https://www.linkedin.com/in/jdouraghy">
+<a href="{{site.Instagram}}">
+<h3 class="text-white">Instagram</h3>
+</a>
+<a href="{{site.LinkedIn}}">
+<h3 class="text-white">Linkedin</h3>
 </a>
 </div>
+
 </div>
 </div>
 <div class="row divider-content">
@@ -134,3 +137,4 @@
 </div>
 </section>
 <!--end of contact section-->
+{% endfor %}
