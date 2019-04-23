@@ -17,8 +17,7 @@
 				<div class="medium-12 columns text-center">
 					<a id="work-scroll"></a>
 					<div class="page-title">
-						<h1>&nbsp;</h1>
-						<h6 class="alt-h">An Integrated Life</h6>
+						<h6 class="alt-h">{{section.title}}</h6>
 						<div class="medium-2 line">&nbsp;</div>
 						<div style="background-image: none; padding: 0px 8px; font-size: 30px; color: #b6a591; position: relative; bottom: 8px;" class="icon icon-pencil-ruler">&nbsp;</div>
 						<div class="medium-2 line">&nbsp;</div>
@@ -30,17 +29,12 @@
 			<div class="medium-8 columns">
 				<div>
 					<ul class="slides">
-						<li> <img src="/assets/img/winter-forest-slide.jpg" alt="Winter Forest"> </li>
+						<li> <img src="{{section.['Main Image']}}" alt=""> </li>
 					</ul>
 				</div>
 			</div>
-			<div class="medium-4 columns project-text" ice:editable="html">
-				<h2>Connect With Your <em>WHY</em></h2>
-				<p>As a leader, your work is an integral part of your life. Trying to separate work from the rest of your life, will no longer be
-					a challenge, once you find more meaning in your work.</p>
-				<p>In today’s world, one doesn’t exist without the other. The key is connecting with your <em>WHY</em> which allows you to make better
-					decisions through <em>HOW</em> you do <em>WHAT</em> you do. I will enable you to navigate challenges while clearly defining
-					your goals. And, help you achieve these goals while maintaining a healthy, integrated life.</p>
+			<div class="medium-4 columns project-text">
+			{{section.content | markdownify}}
 			</div>
 		</div>
 		<!--end of project-single-->
