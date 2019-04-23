@@ -1,5 +1,5 @@
 ---
-title: Home-Slider
+title: Section1
 date: 2019-04-23 07:50:00 -07:00
 Slide Images:
 - "/uploads/new_sky.jpg"
