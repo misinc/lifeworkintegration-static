@@ -1,5 +1,5 @@
 <a id="about-scroll"></a>
-{% for section in site.sections | where: "label", "about" limit:1 %}
+{% for section in site.sections | where: "label", "about" last %}
 <section class="pad-large" id="about">
 	<div class="row">
 		<div class="medium-12 columns text-center">
