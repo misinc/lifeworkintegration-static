@@ -14,6 +14,9 @@ collections:
   section3:
     title: Section3
     output: true
+  section4:
+    title: Section4
+    output: true
   sections:
     title: Sections
     output: true
