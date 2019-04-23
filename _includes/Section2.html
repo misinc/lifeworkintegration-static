@@ -1,5 +1,5 @@
 <a id="about-scroll"></a>
-{% for section in site.section2 %}
+{% for section in site.section2 | sort:"position" %}
 <section class="pad-large" id="about">
 	<div class="row">
 		<div class="medium-12 columns text-center">

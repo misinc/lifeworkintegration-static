@@ -11,19 +11,20 @@
 	</div>
 </div>
 <div class="row">
+{% for section in site.section4 | sort:"position" %}
 	<div class="medium-4 columns offix">
 		<div class="service">
 			<div class="service-text">
 				<div class="service-icon"> <img src="/assets/img/life-work-integration-small-logo.png" alt="Life Work Integration Small Logo" ice:editable="image"> </div>
 				<div class="line">&nbsp;</div>
-				<p ice:editable="line">Life Work Integration is about getting you to go deep to your core, and re-discovering where you want to take your life. Heading
-					in a new direction, requires a whole new strategy for working, communicating, living and thriving in your life.</p>
+				<p ice:editable="line">{{section.content}}</p>
 			</div>
 			<div class="line">&nbsp;</div>
 			<a class="smooth-scroll" href="#contact-scroll"></a>
 		</div>
 	</div>
 	<!--end of individual service-->
+{% endfor %}
 	<div class="medium-4 columns offix">
 		<div class="service">
 			<div class="service-text">

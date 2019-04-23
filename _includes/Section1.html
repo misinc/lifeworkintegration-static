@@ -2,7 +2,7 @@
 <section id="home">
 	<div id="home-slider">
 		<ul class="slides">
-			{% for slide in site.section1 %} 
+			{% for slide in site.section1 | sort:"position" %} 
 			<li class="has-parallax cover-bg">
 				<div class="row slide-content text-center">
 					<div class="medium-12 medium-centered columns">
