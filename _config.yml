@@ -20,6 +20,9 @@ collections:
   section5:
     title: Section5
     output: true
+  section6:
+    title: Section6
+    output: true
   sections:
     title: Sections
     output: true
