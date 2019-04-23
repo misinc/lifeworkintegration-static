@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+  sections:
+    title: Sections
+    output: true
   slides:
     title: Slides
     output: false
@@ -31,6 +34,7 @@ defaults:
   values:
     Slide Image: 
     Headline: Lifeworkintegration
+    Slide txt: 
 permalink: pretty
 Email: jamie@lifeworkintegration.com
 Phone: 424-442-9219
