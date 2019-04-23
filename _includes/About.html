@@ -1,6 +1,5 @@
 <a id="about-scroll"></a>
-<h1 style="color:red">{{page.title}}</h1>
-{% assign sections = site.posts | where: 'title', page.title %}
+{% assign sections = site.posts | where: 'title', 'About' %}
 {% for section in sections %}
 <section class="pad-large" id="about">
 	<div class="row">
