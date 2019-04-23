@@ -2,11 +2,11 @@
 <section class="pad-large" id="work">
 	<div class="projects-wrapper offix">
 		<div class="projects-container">
-		{% for image in site.section7.images | sort:"position" %}
+		{% for image in site.section7.Images | sort:"position" %}
 			<div class="small-12 medium-4 print project">
 				<div class="project-image-wrapper"> <img src="{{image.image}} alt="{{image.alt}}"> </div>
 				<div class="project-title text-center">
-					<h3 ice:editable="line">Intent</h3>
+					<h3 ice:editable="line">{{image}}</h3>
 				</div>
 			</div>
 		{% endfor %}
