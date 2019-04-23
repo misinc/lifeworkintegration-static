@@ -4,7 +4,7 @@
 	<div class="divider-overlay">&nbsp;</div>
 	<div class="testimonials-slider">
 		<ul class="slides text-center">
-			{% assign sections = site.sections | where: 'title', 'Testimonials' %}
+			{% assign sections = site.section2 | sort:"position" %}
 			{% for section in sections %}
 			<li>
 				<div class="row divider-content">
