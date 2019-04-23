@@ -1,30 +1,15 @@
+{% for section in site.section7 | sort:"position" %}
 <section class="pad-large" id="work">
 	<div class="projects-wrapper offix">
 		<div class="projects-container">
+		{% for image in site.section7.images | sort:"position" %}
 			<div class="small-12 medium-4 print project">
-				<div class="project-image-wrapper"> <img src="/assets/img/fencing-men.jpg" alt="Two Fencing Men" ice:editable="image"> </div>
+				<div class="project-image-wrapper"> <img src="{{image.image}} alt="{{image.alt}}"> </div>
 				<div class="project-title text-center">
 					<h3 ice:editable="line">Intent</h3>
-					<p class="lead"><em>&nbsp;</em> </p>
 				</div>
 			</div>
-			<!--end of individual project-->
-			<div class="small-12 medium-4 branding project">
-				<div class="project-image-wrapper"> <img src="/assets/img/desert-walkers-black-and-white.jpg" alt="Desert Walkers" ice:editable="image"> </div>
-				<div class="project-title text-center">
-					<h3 ice:editable="line">Discovery</h3>
-					<p class="lead"><em>&nbsp;</em> </p>
-				</div>
-			</div>
-			<!--end of individual project-->
-			<div class="small-12 medium-4 print project">
-				<div class="project-image-wrapper"> <img src="/assets/img/mountain-goat.jpg" alt="Mountain Goat Sculpture" ice:editable="image"> </div>
-				<div class="project-title text-center">
-					<h3 ice:editable="line">Purpose</h3>
-					<p class="lead"><em>&nbsp;</em> </p>
-				</div>
-			</div>
-			<!--end of individual project-->
+		{% endfor %}
 		</div>
 		<!--end of projects container-->
 		<div class="project-body">
@@ -45,7 +30,7 @@
 			<div class="medium-8 columns">
 				<div>
 					<ul class="slides">
-						<li> <img src="/assets/img/winter-forest-slide.jpg" alt="Winter Forest" ice:editable="image"> </li>
+						<li> <img src="/assets/img/winter-forest-slide.jpg" alt="Winter Forest"> </li>
 					</ul>
 				</div>
 			</div>
@@ -62,3 +47,4 @@
 	</div>
 	<!--end of projects wrapper-->
 </section>
+{% endfor %}
