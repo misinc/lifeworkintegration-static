@@ -29,6 +29,9 @@ collections:
   section8:
     title: Section8
     output: true
+  section9:
+    title: Section9
+    output: true
   sections:
     title: Sections
     output: true
