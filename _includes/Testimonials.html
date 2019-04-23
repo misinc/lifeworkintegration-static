@@ -1,36 +1,21 @@
 <a id="testimonials-scroll"></a>
-<section class="text-divider pad-large bg-cover" id="testimonials"> <img src="/assets/img/backgrounds/new_asian.jpg" class="divider-bg" alt="Asian Pagoda" ice:editable="image">
+<section class="text-divider pad-large bg-cover" id="testimonials"> 
+	<img src="/assets/img/backgrounds/new_asian.jpg" class="divider-bg" alt="Asian Pagoda">
 	<div class="divider-overlay">&nbsp;</div>
 	<div class="testimonials-slider">
 		<ul class="slides text-center">
+			{% assign sections = site.sections | where: 'title', 'Testimonials' %}
+			{% for section in sections %}
 			<li>
 				<div class="row divider-content">
 					<div class="medium-9 medium-centered columns">
-						<h1 class="text-white" ice:editable="line">A Better Way through Life Work Integration</h1>
-						<p class="text-white lead" ice:editable="line">Life doesn’t have to be difficult.</p>
-						<p class="text-white lead" ice:editable="line">The reality is, finding a better way to integrate your work and personal life is absolutely achievable.</p> <img src="/assets/img/life-work-integration-logo-avatar.png" alt="Life Work Integration Logo Avatar" ice:editable="image"> </div>
-				</div>
-			</li>
-			<li>
-				<div class="row divider-content">
-					<div class="medium-9 medium-centered columns">
-						<h1 class="text-white" ice:editable="line">There is a reason you’re an entrepreneur and a leader.</h1>
-						<p class="text-white lead" ice:editable="line">If you’re ready to identify your purpose, your passion, and transition to a better way of living, then I’m here to get
-							you back on track.</p> <img src="/assets/img/life-work-integration-logo-avatar.png" alt="Life Work Integration Logo Avatar" ice:editable="image"> </div>
-				</div>
-			</li>
-			<li>
-				<div class="row divider-content">
-					<div class="medium-9 medium-centered columns">
-						<h1 class="text-white" ice:editable="line">That ‘stuck’ feeling doesn’t have to go on forever.</h1>
-						<p class="text-white lead" ice:editable="line">There’s always a better way, and my purpose is to enable you to uncover it. Your entrepreneurial side, your athletic drive,
-							and creative outlet are waiting to be tapped into, once you know why you do what you do.</p>
-						<p class="text-white lead" ice:editable="line">Working one-on-one with entrepreneurs and business leaders, we create a more integrated way to live – both personally and
-							professionally, without separation.</p> <img src="/assets/img/life-work-integration-logo-avatar.png" alt="Life Work Integration Logo Avatar" ice:editable="image">
-						<!--<h6 class="text-white alt-h">&nbsp;</h6>-->
+						<h1 class="text-white">{{section.Heading}}</h1>
+						<p class="text-white lead">{{section.Txt}}</p>
+						<img src="/assets/img/life-work-integration-logo-avatar.png" alt="Life Work Integration Logo Avatar">
 					</div>
 				</div>
 			</li>
+			{% endfor %}
 		</ul>
 	</div>
 </section>
