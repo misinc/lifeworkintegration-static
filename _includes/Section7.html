@@ -2,7 +2,7 @@
 <section class="pad-large" id="work">
 	<div class="projects-wrapper offix">
 		<div class="projects-container">
-		{% for image in site.section7.Images | sort:"position" %}
+		{% for image in section.Images | sort:"position" %}
 			<div class="small-12 medium-4 print project">
 				<div class="project-image-wrapper"> <img src="{{image[1]}} alt="{{image[0]}}"> </div>
 				<div class="project-title text-center">
