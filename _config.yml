@@ -8,6 +8,9 @@ collections:
   slide1:
     title: Section1
     output: false
+  section2:
+    title: Section2
+    output: true
   sections:
     title: Sections
     output: true
