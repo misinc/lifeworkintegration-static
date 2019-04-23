@@ -18,13 +18,8 @@ date: 2018-04-12 18:33:00 -07:00
         <div id="main-container">
 		{% assign sections = site.sections | sort:"position" %}
 		{% for section in sections %}
+			{% include {{section.title}}.html %}
 		{% endfor %}
-	 	{% include Section1.html %}
-	 	{% include Section2.html %}
-	 	{% include Section3.html %}
-	 	{% include Section4.html %}
-	 	{% include Section5.html %}
-
         </div>
         <!--end main container-->
         {% include Scripts.html %}
